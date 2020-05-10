@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  box-sizing: border-box;
+}
+
+.produccion__list {
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.produccion__item {
+  width: 400px;
+}
+
+.produccion--ladoIzquierdo {
+  width: 100px;
+}
+
+.produccion--ladoDerecho {
+  width: 200px;
+}
+
+input {
+  border: 1px solid gray;
+  padding-left: 5px;
+}
+
+input.ng-invalid.ng-touched {
+  border: 1px solid red;
+}
